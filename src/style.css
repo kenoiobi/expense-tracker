@@ -1,0 +1,147 @@
+body{
+    background-color: #f7f7f7;
+    --box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24)
+}
+
+p{
+    text-align: center;
+}
+
+.title{
+    font-size: 25px;
+    margin: 40px 0;
+}
+
+.header{
+    font-size: 20px;
+    margin-bottom: 0px;
+    font-weight: 700;
+}
+
+.balance{
+    font-size: 25px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.incomeexpense{
+    width: 350px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    box-shadow: var(--box-shadow);
+    height: 90px;
+}
+
+.vline{
+    width: 1px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.30);
+}
+
+.leftbox p{
+    margin: 5px 0;
+}
+
+.rightbox p{
+    margin: 5px 0;
+}
+
+.bottomtitle{
+    text-align: left;
+    width: 350px;
+    margin: auto;
+    margin-top: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    padding-bottom: 10px;
+}
+
+.text{
+    text-align: left;
+    width: 350px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.input{
+    margin: auto;
+    text-align: center;
+}
+
+input{
+    width: 340px;
+    padding: 10px 10px;
+    border-radius: 3px;
+    border-color: rgba(0, 0, 0, 0.25);
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.button{
+    text-align: center;
+}
+
+button{
+    width: 363px;
+    height: 40px;
+    border: 0;
+    border-radius: 0;
+    color: white;
+    background-color: #9c88ff;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.negative{
+    margin-top: 4px;
+
+}
+
+.transaction{
+    width: 350px;
+    margin: auto;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    box-shadow: var(--box-shadow)
+}
+
+.greenbox{
+    height: 40px;
+    background-color: lightgreen;
+    width: 5px;
+}
+
+.redbox{
+    height: 40px;
+    background-color: red;
+    width: 5px;
+}
+
+.transinside{
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 5px);
+    background-color: white;
+    height: 40px;
+    align-items: center;
+    
+}
+
+.transinside p{
+    margin: 0 10px;
+}
+
+.greentext{
+    color: lightgreen;
+    font-weight: bold;
+}
+
+.redtext{
+    color: red;
+    font-weight: bold;
+}
