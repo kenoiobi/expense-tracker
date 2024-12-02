@@ -2,7 +2,11 @@
 
 Simple React Expense Tracker App
 
+
 ![image](https://github.com/user-attachments/assets/63236a1d-a6fd-4868-b972-555705f897d9)
+
+
+
 
 Usage:
 
